@@ -12,7 +12,7 @@
     crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     
-    <title>Página principal</title>
+    <title>Contacto</title>
 </head>
 <body>
     <header id="headernav">
@@ -26,9 +26,9 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                  <a class="nav-link active link-menu" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link link-menu" aria-current="page" href="index.html">Inicio</a>
                   <a class="nav-link link-menu" href="producto.html">Producto</a>
-                  <a class="nav-link link-menu" href="contacto.html">Contacto</a>
+                  <a class="nav-link active link-menu" href="contacto.html">Contacto</a>
                   
                 </div>
               </div>
@@ -37,19 +37,37 @@
 
     </header>
 
-    <section id="principal">
-        <div class="container espacio">
-        <div class="row align-item-center">
+    <section id="contacto">
+        <div class="container">
+        <div class="row justify-content-md-center espacio-row">
             <div class="col-sm-4">
                 <img src="images/watch/watch1.png" class="img-fluit" alt="">
             </div>
             <div class="col-sm-8">
                 <h1>
-                    Relojes inteligentes para un mundo inteligente
+                    Ponte en contacto
                 </h1>
-                <p>Tanto si quieres comprar un smartwatch barato como uno de lujo,
-                    tendras muchas opciones para elegir.
-                </p>
+                <p>Nos interesa conocer tu opinión, sugerencias, quejas y responder a tus preguntas</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputNombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleInputNombre">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail" class="form-label">Correo electrónico</label>
+                      <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputAsunto" class="form-label">Asunto</label>
+                      <input type="text" class="form-control" id="exampleInputAsunto">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlMensaje" class="form-label">Escribe aqui tu mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlMensaje" rows="3"></textarea>
+                      </div>
+                    
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
             </div>
         </div>
         </div>

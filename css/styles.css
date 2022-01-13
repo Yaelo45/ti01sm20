@@ -74,5 +74,17 @@ a:hover{
     height: 4.6875em;
 }
 
+/***************************************************/
+/*               Estilos de Contacto               */
+/***************************************************/
+#contacto{
+    margin-top: 3.125em;
+}
+
+.espacio-row{
+    padding: 3em;
+    padding-bottom: 3em;
+}
+
 
 
